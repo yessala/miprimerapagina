@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Este es mi primer Webside</h1>
+        <div class="row">
+            <div class="column"
+                <h2>Soy venezolana viviendo en Argentina</h2>
+                <h2>Tengo estudios en Testing QA, SQL, analisis de datos, backend (JAVA+Spring), inglés técnico y programación web</h2>
+            </div>
+            <div class="column">
+                <p>Mi nombre es Yessalim Salazar, y ésta es mi primera página web!</p>
+                <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes
+                    y funcionales.</p>
+                <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos
+                    lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
+                <p>Además de conocer los conceptos básicos que me ayudarán a realizar scripts de automatización para
+                    realizar pruebas automatizadas en páginas web</p>
+            </div>
+        </div>
+    </div>
+    <div class="lista">
+        <h4>Módulos realizados hasta ahora</h4>
+        <ul>
+            <li>Testing QA - Introducción</li>
+            <li>Testing QA - Manual</li>
+            <li>Testing QA - Automation</li>
+        </ul>
+    </div>
+    <div id="formulario">
+        <form class="miform">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" class="conf-input">
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="text" id="email" name="email" placeholder="Ingrese su email" class="conf-input">
+
+            <label for="mensaje">Mensaje:</label>  
+            <textarea name="mensaje" id="mensaje" cols="30" rows="5" class="conf-input"></textarea>
+
+            <label for="pais">País:</label>
+            <select name="pais" id="pais">
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+                <option value="peru">Peru</option>
+                <option value="ecuador">Ecuador</option>
+                <option value="venezuela">Venezuela</option>
+            </select>
+            <button type="submit"> Enviar</button>
+        </form>
+
+    </div>
+<!-- <button id="miBoton">HAZ CLICK AQUI</button> -->
+
+<script src="script.js"></script>    
+</body>
+</html>
